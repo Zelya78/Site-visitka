@@ -1,0 +1,70 @@
+@font-face {
+   src: url(../fonts/OpenSans-Regular.ttf);
+   font-family: 'OpenSans Regular'; 
+}
+
+body {
+   background-color: #4CB5F5;
+   font-family: 'OpenSans Regular', Arial, Helvetica, sans-serif;
+}
+
+.header {
+   padding: 20px 45px;
+   text-align: center;
+   color: #265C00;
+   margin: 10px 12px;
+}
+
+.header a {
+   border: 3px solid #265C00;
+   padding: 5px 10px;
+   text-decoration: none;
+   font-weight: 900;
+}
+
+.header a:hover {
+   color:black;
+   border: 6px solid black;
+   background-color:yellow;
+}
+
+hr {
+   width: 100%;
+}
+
+.main {
+   margin: 0 auto;
+   width: 1000px;
+}
+
+.title {
+   text-align: center;
+   color: #265C00;
+   font-size: 40px;
+}
+
+.img {
+   background-color: #128277;
+   padding: 10px 20px;
+   text-align: center;
+}
+
+.text span {
+   font-weight: 800;
+}
+
+.subtitle {
+   border-left: 7px solid #265C00;
+   padding-left: 10px;
+   color: #265C00;
+   margin-top: 30px;
+}
+
+h2 {
+   display: block;
+   font-size: 30px;
+   margin-block-start: 0.85em;
+   margin-block-end: 0.85em;
+   font-weight: bold;
+   color: #265C00
+}
